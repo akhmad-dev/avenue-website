@@ -429,9 +429,6 @@
               padding: 0px 0px 0px 150px;
               gap: 20px;
               grid-template-columns: repeat(2, 1fr);
-              button {
-                border: 2px solid red;
-              }
             }
 
             .section_one_item_row_col {
@@ -445,6 +442,7 @@
             display: grid;
             grid-template-columns: 1fr;
             margin-top: 50px;
+            height: auto;
 
             .section_one_item {
               h1 {
@@ -471,6 +469,7 @@
               }
             }
           }
+         
         }
 
         .section_two {
@@ -828,8 +827,8 @@
           }
           @media screen and (max-width: 930px) {
             gap: 100px;
-            margin-top: 20%;
-            padding: 100px 100px 0px 100px;
+            margin-top: -10%;
+            padding: 100px 100px 200px 100px;
 
             .section_two_item {
               height: 300px;
@@ -990,8 +989,45 @@
             display: grid;
             grid-template-columns: 1fr;
             gap: 100px;
-            margin-top: 20%;
+            margin-top: 10%;
             padding: 100px 100px 0px 100px;
+            height: auto;
+
+            .section_two_item {
+              height: 350px;
+              width: 250px;
+              margin: auto;
+              margin-top: -100px;
+            }
+            .section_two_item_row {
+              h1 {
+                font-size: 54px;
+                line-height: 64px;
+              }
+              p {
+                font-size: 13px;
+                line-height: 31px;
+                width: 300px;
+              }
+              h2 {
+                font-size: 13px;
+                line-height: 31px;
+                width: 300px;
+              }
+            }
+            .section_two_item_row_col {
+              height: 350px;
+              width: 250px;
+              padding: 0 0 100px 0;
+            }
+          }
+          @media screen and (max-width: 380px) {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 100px;
+            margin-top: 10%;
+            padding: 100px 100px 0px 100px;
+            height: auto;
 
             .section_two_item {
               height: 350px;
