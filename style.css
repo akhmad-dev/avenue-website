@@ -954,9 +954,9 @@
     display: grid;
     grid-template-columns: 1fr;
     gap: 100px;
-    margin-top: 10%;
     padding: 100px 100px 0px 100px;
     height: auto;
+    margin-top: 35%;
   }
   * body .container_Box main .section_two .section_two_item {
     height: 350px;
